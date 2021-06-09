@@ -13,3 +13,12 @@ body {
 .logo h2 {
   font-family: "Hanalei Fill", cursive;
 }
+/*showcase */
+.showcase {
+  height: 100vh;
+  background: url("./assets/showcase.jpg") no-repeat center/cover;
+}
+.showcase .overlay {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+}
