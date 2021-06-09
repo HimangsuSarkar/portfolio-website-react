@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import data from '../../data';
 
 const Projects = () => {
-    const[items]=useState(data);
+    const[items,setItems]=useState(data);
     return (
         <>
           <section className="py-20 px-5 bg-green-800 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 lg:h-screen lg:pt-32">
